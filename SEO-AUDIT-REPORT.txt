@@ -1,0 +1,86 @@
+﻿[PROJECT] Source files scanned: 79
+[PROJECT] Page/layout files scanned: 12
+[METADATA] Metadata declaration: src\app\layout.tsx
+[FOUND] Title: src\app\layout.tsx
+[FOUND] Description: src\app\layout.tsx
+[FOUND] Open Graph: src\app\layout.tsx
+[FOUND] Twitter: src\app\layout.tsx
+[REVIEW] No metadata declaration detected: src\app\page.tsx
+[FOUND] Title: src\app\page.tsx
+[METADATA] Metadata declaration: src\app\account\page.tsx
+[FOUND] Title: src\app\account\page.tsx
+[FOUND] Description: src\app\account\page.tsx
+[METADATA] Metadata declaration: src\app\admin\page.tsx
+[FOUND] Title: src\app\admin\page.tsx
+[METADATA] Metadata declaration: src\app\cart\page.tsx
+[FOUND] Title: src\app\cart\page.tsx
+[FOUND] Description: src\app\cart\page.tsx
+[METADATA] Metadata declaration: src\app\checkout\page.tsx
+[FOUND] Title: src\app\checkout\page.tsx
+[FOUND] Description: src\app\checkout\page.tsx
+[METADATA] Metadata declaration: src\app\driver\page.tsx
+[FOUND] Title: src\app\driver\page.tsx
+[METADATA] Metadata declaration: src\app\legal\[doc]\page.tsx
+[FOUND] Title: src\app\legal\[doc]\page.tsx
+[FOUND] Canonical: src\app\legal\[doc]\page.tsx
+[METADATA] Metadata declaration: src\app\order\[orderNumber]\page.tsx
+[FOUND] Title: src\app\order\[orderNumber]\page.tsx
+[METADATA] Metadata declaration: src\app\product\[slug]\page.tsx
+[FOUND] Title: src\app\product\[slug]\page.tsx
+[FOUND] Description: src\app\product\[slug]\page.tsx
+[FOUND] Canonical: src\app\product\[slug]\page.tsx
+[FOUND] Open Graph: src\app\product\[slug]\page.tsx
+[FOUND] Twitter: src\app\product\[slug]\page.tsx
+[METADATA] Metadata declaration: src\app\shop\page.tsx
+[FOUND] Title: src\app\shop\page.tsx
+[FOUND] Description: src\app\shop\page.tsx
+[FOUND] Canonical: src\app\shop\page.tsx
+[REVIEW] No metadata declaration detected: website-studio-backup-20261107-235645\page.tsx
+[FOUND] Title: website-studio-backup-20261107-235645\page.tsx
+[JSON-LD] Structured data detected: src\app\product\[slug]\page.tsx
+[SCHEMA REVIEW] Product reference: src\app\product\[slug]\page.tsx
+[SCHEMA REVIEW] Organization reference: src\app\product\[slug]\page.tsx
+[SCHEMA REVIEW] WebSite reference: src\app\product\[slug]\page.tsx
+[FOUND] sitemap.ts exists.
+[REVIEW] sitemap.ts contains a localhost fallback/reference.
+[SITEMAP] Possible dynamic product URL generation.
+[FOUND] robots.ts exists.
+[REVIEW] robots.ts contains a localhost fallback/reference.
+[ROBOTS] Reference to /admin detected.
+[ROBOTS] Reference to /api detected.
+[ROBOTS] Reference to /cart detected.
+[ROBOTS] Reference to /checkout detected.
+[ROBOTS] Reference to /account detected.
+[ROBOTS] Reference to /order detected.
+[ROBOTS] Reference to /driver detected.
+[HEADINGS] src\app\page.tsx : H1=1, H2=10
+[HEADINGS] src\app\account\page.tsx : H1=1, H2=0
+[HEADINGS] src\app\admin\page.tsx : H1=2, H2=0
+[REVIEW] Multiple literal H1 tags: src\app\admin\page.tsx
+[HEADINGS] src\app\cart\page.tsx : H1=0, H2=0
+[REVIEW] No literal H1 detected: src\app\cart\page.tsx
+[HEADINGS] src\app\checkout\page.tsx : H1=1, H2=0
+[HEADINGS] src\app\driver\page.tsx : H1=2, H2=0
+[REVIEW] Multiple literal H1 tags: src\app\driver\page.tsx
+[HEADINGS] src\app\legal\[doc]\page.tsx : H1=1, H2=1
+[HEADINGS] src\app\order\[orderNumber]\page.tsx : H1=2, H2=3
+[REVIEW] Multiple literal H1 tags: src\app\order\[orderNumber]\page.tsx
+[HEADINGS] src\app\product\[slug]\page.tsx : H1=0, H2=1
+[REVIEW] No literal H1 detected: src\app\product\[slug]\page.tsx
+[HEADINGS] src\app\shop\page.tsx : H1=1, H2=0
+[HEADINGS] website-studio-backup-20261107-235645\page.tsx : H1=1, H2=10
+[IMAGE REVIEW] Empty alt attribute: src\components\liquid-glass-logo.tsx
+[IMAGE REVIEW] Empty alt attribute: src\components\liquid-glass-logo.tsx
+[URL REVIEW] Localhost reference: src\app\layout.tsx
+[URL REVIEW] Localhost reference: src\app\robots.ts
+[URL REVIEW] Localhost reference: src\app\sitemap.ts
+[URL REVIEW] Localhost reference: src\app\api\auth\[action]\route.ts
+[URL REVIEW] Localhost reference: src\app\product\[slug]\page.tsx
+[SITE CONFIG] metadataBase detected: src\app\layout.tsx
+[SITE CONFIG] Open Graph detected: src\app\layout.tsx
+[SITE CONFIG] Twitter detected: src\app\layout.tsx
+[SITE CONFIG] Viewport detected: src\app\layout.tsx
+[SITE CONFIG] HTML language detected: src\app\layout.tsx
+[SITE URL] NEXT_PUBLIC_SITE_URL configured. Value hidden.
+[BUILD] Build script: next build
+[FRAMEWORK] Dependencies checked from package.json.

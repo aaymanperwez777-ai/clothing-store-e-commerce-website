@@ -1,0 +1,11 @@
+﻿Production build: PASSED
+/ : HTTP 200
+Homepage title: PRESENT
+Homepage description: PRESENT
+Homepage canonical: PRESENT
+/robots.txt : HTTP 200
+Robots sitemap declaration: PRESENT
+/sitemap.xml : HTTP 200
+Sitemap XML structure: VALID
+/product/legendary-wafel-t-shirt-n7zj : HTTP 200
+Product structured data: PRESENT

@@ -1,0 +1,84 @@
+
+== FUNKY CULTURE smoke tests @ http://127.0.0.1:3000 ==
+
+PASS  A1 homepage loads 200
+PASS  A2 homepage shows brand hero
+PASS  A3 homepage links to shop
+PASS  A4 shop page loads
+PASS  A5 search finds product
+PASS  A6 category filter works
+PASS  A7 product page loads
+PASS  A8 product JSON-LD present
+PASS  A9 sold-out size shown
+PASS  A10 sitemap reachable
+PASS  A10 robots reachable
+PASS  A10 legal page reachable
+PASS  A10 cart page reachable
+PASS  A10 checkout page reachable
+PASS  A11 health endpoint
+PASS  A12 admin blocked when signed out
+PASS  B1 wrong password rejected
+PASS  B2 registration works
+PASS  B3 duplicate email rejected
+PASS  B4 session persists
+PASS  B5 wishlist add while authed
+PASS  B6 wishlist toggle removes
+PASS  B7 wishlist requires auth
+PASS  B8 forgot-password accepted
+PASS  C1 add to cart
+PASS  C2 out-of-stock variant rejected
+PASS  C3 over-stock add rejected
+PASS  C4 quantity update
+PASS  C5 server-side price math (₹999 sale x 3)
+PASS  C6 invalid coupon rejected
+PASS  C7 valid coupon applies 10%
+PASS  C8 coupon min-order enforced
+PASS  C9 cart persists via cookie
+PASS  E1 invalid PIN rejected
+PASS  E2 COD order created
+PASS  E3 duplicate checkout prevented (idempotency)
+PASS  E4 exactly one order row
+PASS  E5 stock deducted atomically
+PASS  E6 inventory ledger consistent
+PASS  E7 COD order confirmed, payment pending
+PASS  E8 order total math (subtotal -10% + free ship)
+PASS  E9 cart cleared after order
+PASS  E10 order confirmation page
+PASS  E11 online payment guarded without keys
+BLOCK E12 real Razorpay sandbox round-trip — requires RAZORPAY_KEY_ID/SECRET env credentials
+BLOCK E13 Razorpay webhook signature with live payload — requires RAZORPAY_WEBHOOK_SECRET + gateway account
+PASS  F1 admin API rejects customer role
+PASS  F2 admin API rejects anonymous
+PASS  F3 admin login
+PASS  F4 admin overview loads
+PASS  F5 overview counts QA order
+PASS  F6 admin product list
+PASS  F7 admin product create
+PASS  F8 admin product update
+PASS  F9 variant stock updated via edit
+PASS  F10 admin product delete
+PASS  F11 COD delivered => payment marked paid
+PASS  F12 inventory adjustment works
+PASS  F13 ledger matches after restock
+PASS  F14 negative stock prevented
+PASS  F15 coupon creation
+PASS  F16 duplicate coupon code rejected
+PASS  F17 admin cancel restores stock
+PASS  F18 customer list w/ spend
+PASS  F19 homepage content editable
+PASS  F21 admin image upload accepted
+PASS  F22 uploaded image is served
+PASS  F23 fake/malicious file rejected (magic-byte sniffing)
+PASS  F24 oversize upload rejected (>5MB)
+PASS  F25 upload blocked for non-admin
+PASS  F20 logout kills admin session
+PASS  G1 newsletter subscribe + duplicate safe
+PASS  G2 newsletter validates email
+PASS  G3 review submission (awaiting moderation)
+PASS  G4 unknown product → 404
+PASS  G5 malformed input rejected safely
+
+== SUMMARY ==
+passed: 74
+failed: 0
+blocked: 2

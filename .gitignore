@@ -1,0 +1,23 @@
+﻿node_modules/
+.next/
+out/
+dist/
+build/
+.env
+.env.*
+!.env.example
+data/uploads/
+*.log
+.DS_Store
+Thumbs.db
+
+website-studio-backup-*/
+
+*.bak
+*.backup
+*.tsbuildinfo
+
+*.before-*
+
+# Local audit report - do not publish
+FUNKY-CULTURE-FULL-AUDIT.txt

@@ -1,0 +1,12 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+  <rect width="500" height="200" fill="#000000"/>
+  <text x="250" y="82" text-anchor="middle" fill="#ffffff"
+        font-family="Arial, Helvetica, sans-serif" font-size="65"
+        font-weight="900" letter-spacing="-2">CLOTHING</text>
+  <text x="250" y="143" text-anchor="middle" fill="#ffffff"
+        font-family="Arial, Helvetica, sans-serif" font-size="65"
+        font-weight="900" letter-spacing="-2">STORE</text>
+  <text x="250" y="177" text-anchor="middle" fill="#bdbdbd"
+        font-family="Arial, Helvetica, sans-serif" font-size="12"
+        letter-spacing="4">FASHION · STYLE · EVERYDAY</text>
+</svg>
